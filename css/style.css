@@ -1,7 +1,7 @@
 /*Set background color of entire webpage*/
 
 .all {
-	background-color: #020610;
+	background: #020610;
 }
 /*Set font color of all elements in the container*/
 
@@ -62,7 +62,7 @@
 /*Adding background color to modal elements*/
 
 .modal-header, .modal-body, .modal-footer {
-	background-color: #d2dbe7;
+	background: #d2dbe7;
 }
 /*Set font-size of navbar items*/
 
