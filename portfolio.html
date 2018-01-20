@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<title>Portfolio</title>
+</head>
+<body class="all">
+	<div class="container">
+		<!--This row contains the profile pic, name and designation-->
+		<div class="row underline">
+			<div class="col-md-6"><img alt="My photo" class="img-responsive logo-margin outline" src="img/mypic.jpg"></div>
+			<div class="col-md-6 text-right">
+				<h1 class="name">Shruti Sheoran</h1>
+				<h4 class="about">Learner</h4>
+			</div>
+		</div><!--The following code will display a navbar including dropdown-->
+		<nav class="navbar navbar-inverted">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button"><span class="glyphicon glyphicon-menu-hamburger"></span></button> <a class="navbar-brand" href="#"><span class="brand-color">My Portfolio</span></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li><!--The follwing list element is a dropdown menu-->
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class="elements">
+									<a href="#pro1">Project1</a>
+								</li>
+								<li class="elements">
+									<a href="#pro2">Project2</a>
+								</li>
+								<li class="elements">
+									<a href="#pro3">Project3</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<!--The following list element is a dropdown menu-->
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Me<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li class="elements">
+									<a href="https://github.com/shrutisheoran">Github</a>
+								</li>
+								<li class="elements">
+									<a href="https://www.linkedin.com/in/shruti-sheoran-1a1225156/">LinkedIn</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav><!--Follwing row includes a Cover Photo-->
+		<div class="row">
+			<div class="col-md-12"><img alt="Cover Photo" class="img-responsive cover outline" src="img/cover.jpg"></div>
+		</div>
+		<div class="row">
+			<h2 class="col-md-12">Featured work</h2>
+		</div><!--Following row shows project related photos and links-->
+		<div class="row" id="projects">
+			<div class="col-md-4 text-center" id="pro1">
+				<img alt="Dr.APJ Abdul Kalam" class="img-responsive outline projectheight" data-target="#project1" data-toggle="modal" src="img/kalamsir.jpg">
+				<h3>Tribute Page</h3><a class="project-link" href="https://codepen.io/shrutisheoran/full/BdwWYa">See Here</a><br>
+			</div>
+			<div class="col-md-4 text-center" id="pro2">
+				<img alt="Wallpaper Image" class="img-responsive outline projectheight" data-target="#project2" data-toggle="modal" src="img/movie.jpg">
+				<h3>Movie Trailer Website</h3><a class="project-link" href="https://github.com/shrutisheoran/movie-trailer-website">See Here</a><br>
+			</div>
+			<div class="col-md-4 text-center" id="pro3">
+				<img alt="Wallpaper Image" class="img-responsive outline projectheight" data-target="#project3" data-toggle="modal" src="img/sql.jpg">
+				<h3>Log Analysis</h3><a class="project-link" href="https://github.com/shrutisheoran/log-analysis">See Here</a>
+			</div>
+		</div>
+		<hr>
+	</div><!-- Modal -->
+	<div aria-hidden="true" aria-labelledby="myModalLabel1" class="modal fade" id="project1" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel1">Tribute Page</h4>
+				</div>
+				<div class="modal-body">
+					<img alt="Dr.APJ Abdul Kalam" class="img-responsive" src="img/kalamsir.jpg"> This was my first project in this class. I learned a lot about HTML and CSS.
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div><!--Modal-->
+	<div aria-hidden="true" aria-labelledby="myModalLabel2" class="modal fade" id="project2" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel2">Movie Trailer Website</h4>
+				</div>
+				<div class="modal-body">
+					<img alt="Wallpaper Image" class="img-responsive" src="img/movie.jpg"> I made this project using classes in python. This project opens a website which shows movie trailers.
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div><!--Modal-->
+	<div aria-hidden="true" aria-labelledby="myModalLabel3" class="modal fade" id="project3" role="dialog" tabindex="-1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel3">Log Analysis</h4>
+				</div>
+				<div class="modal-body">
+					<img alt="Wallpaper Image" class="img-responsive" src="img/sql.jpg"> I made this project in python. This project solves a puzzle by sorting images using their names.
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.js">
+	</script> 
+	<script src="js/bootstrap.js">
+	</script>
+</body>
+</html>

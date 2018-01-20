@@ -1,0 +1,76 @@
+/*Set background color of entire webpage*/
+
+.all {
+	background-color: #020610;
+}
+/*Set font color of all elements in the container*/
+
+.container {
+	color: #d2dbe7;
+	font-family: Amatic SC, cursive;
+}
+/*Adding bottom border before the cover photo*/
+
+.underline {
+	border-bottom: 2px solid #d2dbe7;
+}
+/*Set width and height of cover photo*/
+
+.cover {
+	width: 1120px;
+	max-height: 250px;
+}
+/*Adding margin to logo*/
+
+.logo-margin {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	border-radius: 50%;
+	width: 100px;
+}
+/*Breakpoint 1*/
+
+@media screen and (min-width:991px) {
+	.projectheight {
+		max-height: 250px;
+	}
+}
+/*Breakpoint 2*/
+
+@media screen and (max-width:990px) {
+	.projectheight {
+		max-height: 300px;
+		width: 600px;
+	}
+}
+/*Adding border to all image elements*/
+
+.outline {
+	border: 2px solid #d2dbe7;
+}
+/*Increasing font size of name and designation*/
+
+.name {
+	font-size: 50px;
+	margin-right: 20px;
+}
+.about {
+	font-size: 30px;
+	margin-right: 20px;
+}
+/*Adding background color to modal elements*/
+
+.modal-header, .modal-body, .modal-footer {
+	background-color: #d2dbe7;
+}
+/*Set font-size of navbar items*/
+
+.brand-color, .navbar-nav {
+	font-size: 25px;
+}
+/*Set font-size of project link*/
+
+.elements, .project-link {
+	font-size: 20px;
+}
