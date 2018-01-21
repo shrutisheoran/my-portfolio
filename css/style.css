@@ -39,22 +39,27 @@
 	font-size: 50px;
 	margin-right: 20px;
 }
-p, .about {
+p,
+.about {
 	font-size: 30px;
 	margin-right: 20px;
 }
 /*Adding background color to modal elements*/
 
-.modal-header, .modal-body, .modal-footer {
+.modal-header,
+.modal-body,
+.modal-footer {
 	background: #d2dbe7;
 }
 /*Set font-size of navbar items*/
 
-.brand-color, .navbar-nav {
+.brand-color,
+.navbar-nav {
 	font-size: 25px;
 }
 /*Set font-size of project link*/
 
-.elements, .project-link {
+.elements,
+.project-link {
 	font-size: 20px;
 }
