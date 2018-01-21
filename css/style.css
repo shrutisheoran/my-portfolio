@@ -18,7 +18,6 @@
 
 .cover {
 	width: 1120px;
-	max-height: 250px;
 }
 /*Adding margin to logo*/
 
@@ -28,21 +27,6 @@
 	margin-top: 10px;
 	border-radius: 50%;
 	width: 100px;
-}
-/*Breakpoint 1*/
-
-@media screen and (min-width:991px) {
-	.projectheight {
-		max-height: 250px;
-	}
-}
-/*Breakpoint 2*/
-
-@media screen and (max-width:990px) {
-	.projectheight {
-		max-height: 300px;
-		width: 600px;
-	}
 }
 /*Adding border to all image elements*/
 
@@ -55,7 +39,7 @@
 	font-size: 50px;
 	margin-right: 20px;
 }
-.about {
+p, .about {
 	font-size: 30px;
 	margin-right: 20px;
 }
